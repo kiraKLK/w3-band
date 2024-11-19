@@ -1,0 +1,40 @@
+@media (max-width: 740px) {
+    .s-col-full{
+        width: 100%;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header .menu-mobile{
+        display: block;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #nav .subnav{
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #nav .subnav.open-subnav{
+        position: initial;
+    }
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    #content .member-img{
+        width: 60%;
+    }
+}
